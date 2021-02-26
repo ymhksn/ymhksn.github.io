@@ -5,7 +5,7 @@ body {
 h1 {
   /* Polindo H1 */
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   line-height: 80px;
   text-align: right;
   letter-spacing: -1px;
@@ -14,7 +14,7 @@ h1 {
 h2 {
   /* Polindo H2 */
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 120%;
   letter-spacing: -1px;
 }
@@ -22,7 +22,7 @@ h2 {
 h3 {
   /* Polindo H3 */
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 47px;
   letter-spacing: -0.5px;
   color: #C4C4C4;
@@ -40,7 +40,7 @@ h4 {
 h5 {
   /* Polindo H5 (Thin) */
   font-weight: 100;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   line-height: 81px;
   letter-spacing: -0.88px;
   color: #C4C4C4;
@@ -49,7 +49,7 @@ h5 {
 h6 {
   /* Polindo H6 (Thin) */
   font-weight: 100;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 59px;
   letter-spacing: -0.64px;
   color: #C4C4C4;
@@ -67,7 +67,7 @@ h6 {
 p {
   /* Polido p */
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 170%;
   letter-spacing: -0.272px;
   color: #C4C4C4
@@ -76,7 +76,7 @@ p {
 li {
   /* Polido list */
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 170%;
   letter-spacing: -0.272px;
   color: #C4C4C4
@@ -931,7 +931,7 @@ a:hover {
 
 .csrA1 {
   height: 100vh;
-  padding-top: 15vh;
+  padding-top: 20vh;
 }
 
 .csrA2 {
@@ -948,6 +948,6 @@ a:hover {
 
 .posCsrA2Para {
   position: absolute;
-  top: 250vh;
+  top: 220vh;
   right: 10vw;
 }
