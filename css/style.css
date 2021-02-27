@@ -68,8 +68,7 @@ p {
   /* Polido p */
   font-weight: 400;
   font-size: 0.9rem;
-  line-height: 170%;
-  letter-spacing: -0.272px;
+  line-height: 220%;
   color: #C4C4C4
 }
 
@@ -380,7 +379,6 @@ a:hover {
 }
 
 .a3 {
-  height: 2000px;
   margin-bottom: 32px;
 }
 
@@ -394,14 +392,14 @@ a:hover {
 }
 
 .posA3Img1 {
-  height: 300px;
+  height: 30vh;
   background-image: url('../assets/img/qualityProduct1.png');
   border-radius: 8px;
   margin-bottom: 32px;
 }
 
 .posA3Img2 {
-  height: 300px;
+  height: 30vh;
   background-image: url('../assets/img/qualityProduct2.png');
   border-radius: 8px;
 }
