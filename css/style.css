@@ -953,7 +953,7 @@ a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (max-width: 1600px) {
   /* NOTE: INDEX */
   .horizontal-child-container {
     width: 70vh;
