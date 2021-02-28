@@ -174,15 +174,14 @@ $(document).ready(function() {
 
   //CSR
   $(".textWhite").addClass("polindoWhite")
-  $("#logoBorderWhite").attr("src","assets/img/logoPolindo-White.svg");
 
   $(document).on('scroll', function() {
     if ($(document).scrollTop() > 300) {
       $(".textWhite").removeClass("polindoWhite");
-      $("#logoBorderWhite").attr("src","assets/img/logoPolindo.svg");
+      $(".logoImgWhite").css("background-image", "url('assets/img/logoPolindo.svg')");
     } else if ($(document).scrollTop() < 100) {
       $(".textWhite").addClass("polindoWhite");
-      $("#logoBorderWhite").attr("src","assets/img/logoPolindo-White.svg");
+      $(".logoImgWhite").css("background-image", "url('assets/img/logoPolindo-White.svg')");
     };
   });
 });
