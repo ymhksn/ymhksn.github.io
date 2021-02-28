@@ -113,7 +113,7 @@ a:hover {
   color: #FBFBFB;
 }
 
-/* GENERAL */
+/* NOTE: GENERAL */
 .introBlue {
   background-color: #214384;
   height: 100vh;
@@ -180,6 +180,10 @@ a:hover {
   margin-right: 32px;
 }
 
+.marginL32 {
+  margin-left: 32px;
+}
+
 .bgContain {
   background-position: center;
   background-size: contain;
@@ -214,18 +218,24 @@ a:hover {
   text-decoration: underline;
 }
 
-/* NAVBAR */
+/* NOTE: NAVBAR */
 .navBar {
   padding-top: 40px;
   transition: all 0.5s ease;
 }
 
 .negPadNav {
-  padding-bottom: 40px;
+  padding-bottom: 4vh;
+}
+
+.logoImg {
+  height: 10vh;
+  background-image: url('../assets/img/logoPolindo.svg');
+  background-position: left;
 }
 
 .navBarBG{
-  height: 16vh;
+  height: 15vh;
   background: linear-gradient(
       rgba(251, 251, 251, 0.8),
       rgba(251, 251, 251, 0.8));
@@ -234,14 +244,14 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-/* FOOTER */
+/* NOTE: FOOTER */
 .footer {
   height: 100%;
   background-color: #214384;
   padding: 50px 0;
 }
 
-/* INDEX */
+/* NOTE: INDEX */
 .a1 {
   height: 100vh;
   background-image: url('../assets/img/indexMainImg.jpg');
@@ -260,7 +270,7 @@ a:hover {
 .horizontalViewPort {
   position: relative;
   width: 100vw;
-  height: 70vh;
+  height: 65vh;
   overflow: hidden;
 }
 
@@ -660,7 +670,7 @@ a:hover {
   vertical-align: top;
 }
 
-/* WHYUS */
+/* NOTE: WHY US */
 .visionStatement {
   text-align: center;
   margin: 30vh 0 10vh;
@@ -805,7 +815,7 @@ a:hover {
   margin: auto;
 }
 
-/* PRODUCTS */
+/* NOTE: PRODUCTS */
 .productA1{
   height: 100vh;
   padding-top: 25vh;
@@ -894,7 +904,7 @@ a:hover {
   background-image: url('../assets/img/productCertificate4.png');
 }
 
-/* CSR */
+/* NOTE: CSR */
 .bodyCSR{
   height: 300vh;
 }
@@ -949,4 +959,19 @@ a:hover {
   position: absolute;
   top: 220vh;
   right: 10vw;
+}
+
+@media only screen and (max-width: 1600px) {
+  /* NOTE: INDEX */
+  .horizontal-child-container {
+    width: 70vh;
+  }
+
+  .posA31Img1 {
+    height: 20vh;
+  }
+
+  .posA31Img2 {
+    height: 20vh;
+  }
 }
