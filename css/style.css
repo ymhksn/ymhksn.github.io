@@ -236,14 +236,14 @@ a:hover {
 
 /* FOOTER */
 .footer {
-  height: 240px;
+  height: 100%;
   background-color: #214384;
   padding: 50px 0;
 }
 
 /* INDEX */
 .a1 {
-  height: 850px;
+  height: 100vh;
   background-image: url('../assets/img/indexMainImg.jpg');
   background-position: right;
   background-size: cover;
@@ -251,7 +251,7 @@ a:hover {
 }
 
 .a2 {
-  height: 700px;
+  height: 100%;
   background-color: #E2F0F3;
   padding: 50px 0 0 0;
 }
@@ -260,13 +260,13 @@ a:hover {
 .horizontalViewPort {
   position: relative;
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
 }
 
 .horizontal-parent {
   position: relative;
-  top: 75vh;
+  top: 80vh;
   left: 0;
   width: 100vh;
   height: 100vw;
@@ -285,7 +285,7 @@ a:hover {
 .horizontal-child-container {
   position: absolute;
   width: 100vh;
-  height: 40vw;
+  height: 50vw;
   text-align: center;
   overflow: hidden;
 }
@@ -329,7 +329,8 @@ a:hover {
 .horizontal-child {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 36%;
+  height: 90vh;
   width: 30vw;
   -webkit-transform-origin: 50% 50% 0;
           transform-origin: 50% 50% 0;
@@ -391,22 +392,22 @@ a:hover {
   border-radius: 8px;
 }
 
-.posA3Img1 {
+.posA31Left {
+  background-color: #214384;
+  padding: 2vw;
+}
+
+.posA31Img1 {
   height: 30vh;
   background-image: url('../assets/img/qualityProduct1.png');
   border-radius: 8px;
   margin-bottom: 32px;
 }
 
-.posA3Img2 {
+.posA31Img2 {
   height: 30vh;
   background-image: url('../assets/img/qualityProduct2.png');
   border-radius: 8px;
-}
-
-.posA31Left {
-  background-color: #214384;
-  padding: 2vw;
 }
 
 .posA32 {
@@ -637,7 +638,7 @@ a:hover {
 }
 
 .a4 {
-  height: 90vh;
+  height: 100%;
   background-image: url('../assets/img/a4BG.png');
 }
 
