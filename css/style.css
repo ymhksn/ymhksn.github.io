@@ -113,7 +113,7 @@ a:hover {
   color: #FBFBFB;
 }
 
-/* NOTE: GENERAL */
+/* GENERAL */
 .introBlue {
   background-color: #214384;
   height: 100vh;
@@ -180,10 +180,6 @@ a:hover {
   margin-right: 32px;
 }
 
-.marginL32 {
-  margin-left: 32px;
-}
-
 .bgContain {
   background-position: center;
   background-size: contain;
@@ -218,24 +214,18 @@ a:hover {
   text-decoration: underline;
 }
 
-/* NOTE: NAVBAR */
+/* NAVBAR */
 .navBar {
   padding-top: 40px;
   transition: all 0.5s ease;
 }
 
 .negPadNav {
-  padding-bottom: 4vh;
-}
-
-.logoImg {
-  height: 10vh;
-  background-image: url('../assets/img/logoPolindo.svg');
-  background-position: left;
+  padding-bottom: 40px;
 }
 
 .navBarBG{
-  height: 15vh;
+  height: 16vh;
   background: linear-gradient(
       rgba(251, 251, 251, 0.8),
       rgba(251, 251, 251, 0.8));
@@ -244,14 +234,14 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-/* NOTE: FOOTER */
+/* FOOTER */
 .footer {
   height: 100%;
   background-color: #214384;
   padding: 50px 0;
 }
 
-/* NOTE: INDEX */
+/* INDEX */
 .a1 {
   height: 100vh;
   background-image: url('../assets/img/indexMainImg.jpg');
@@ -270,7 +260,7 @@ a:hover {
 .horizontalViewPort {
   position: relative;
   width: 100vw;
-  height: 65vh;
+  height: 70vh;
   overflow: hidden;
 }
 
@@ -670,7 +660,7 @@ a:hover {
   vertical-align: top;
 }
 
-/* NOTE: WHY US */
+/* WHYUS */
 .visionStatement {
   text-align: center;
   margin: 30vh 0 10vh;
@@ -815,7 +805,7 @@ a:hover {
   margin: auto;
 }
 
-/* NOTE: PRODUCTS */
+/* PRODUCTS */
 .productA1{
   height: 100vh;
   padding-top: 25vh;
@@ -904,7 +894,7 @@ a:hover {
   background-image: url('../assets/img/productCertificate4.png');
 }
 
-/* NOTE: CSR */
+/* CSR */
 .bodyCSR{
   height: 300vh;
 }
@@ -960,6 +950,7 @@ a:hover {
   top: 220vh;
   right: 10vw;
 }
+<<<<<<< HEAD
 
 @media only screen and (min-width: 1600px) {
   /* NOTE: INDEX */
@@ -975,3 +966,5 @@ a:hover {
     height: 20vh;
   }
 }
+=======
+>>>>>>> parent of 4ade15f (Add media query for large screen above 1600px)
