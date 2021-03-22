@@ -1015,6 +1015,7 @@ a:hover {
     position: absolute;
     top: 6vh;
     left: 80%;
+    z-index: 1001;
   }
 
   .bar1, .bar2, .bar3 {
@@ -1046,12 +1047,13 @@ a:hover {
   }
 
   .accordion {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     position: absolute;
+    top: 0;
     right: 0;
     z-index: 1000;
-    padding-top: 40px;
+    padding-top: 80px;
     display: none;
     opacity: 0;
   }
@@ -1100,6 +1102,102 @@ a:hover {
 
     .a1PosSm{
       position: relative;
-      top: 50%;
+      bottom: 100px;
+    }
+
+    /* a2 */
+    /* Horizontal scroll for home small screen*/
+    .horizontalViewPort {
+      position: relative;
+      width: 100vw;
+      height: 80vh;
+      overflow: hidden;
+    }
+
+    .horizontal-parent {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      -webkit-transform-origin: top left;
+      transform-origin: top left;
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      overflow-x: scroll;
+      overflow-y: scroll;
+    }
+
+    .horizontal-parent::-webkit-scrollbar {
+      display: none;
+    }
+
+    .horizontal-child-container {
+      position: relative;
+      width: 100vw;
+      height: 80vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .horizontal-child-container:nth-of-type(1) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(2) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(3) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(4) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(5) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(6) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(7) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(8) {
+      top: 0vw;
+    }
+
+    .horizontal-child-container:nth-of-type(9) {
+      top: 0vw;
+    }
+
+    .horizontal-child {
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      -webkit-transform-origin: 0 0 0;
+      transform-origin: 0 0 0;
+      -webkit-transform: translateX(0) translateY(0) rotate(0);
+      transform: translateX(0) translateY(0) rotate(0);
+      padding: 0 10vw;
+    }
+
+    .childLine {
+      display: none;
+      /* position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      -webkit-transform-origin: 0 0 0;
+      transform-origin: 0 0 0;
+      -webkit-transform: translateX(0) translateY(0) rotate(0);
+      transform: translateX(0) translateY(0) rotate(0); */
     }
 }
