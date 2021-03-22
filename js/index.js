@@ -20,19 +20,14 @@ $(document).ready(function() {
 
   console.log("Ready");
 
+//HAMBURGER MENU
+  $(".hamburgerMenu").click(function() {
+    $(".bar1").toggleClass("changebar1");
+    $(".bar2").toggleClass("changebar2");
+    $(".bar3").toggleClass("changebar3");
+    $(".accordion").toggleClass("hideMenu");
+  });
 
-  // INDEX
-  // $(".a1").on("click", function() {
-  //   console.log("Hello");
-  //   $('html, body').animate({
-  //     scrollTop: $(".a2").offset().top
-  //   }, 500);
-  // });
-  //
-  // $('.hoverPosA33').hover(){
-  //   $(".hoverPosA33").addClass("hoverPosA33Effect");
-  //   $(".posKetSellProduk").addClass('hoverPosA33TextEffect')
-  // });
 
   $(".posA3311").hover(
     function() {
