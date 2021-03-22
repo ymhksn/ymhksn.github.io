@@ -120,7 +120,7 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-.introWhite{
+.introWhite {
   background-color: #FBFBFB;
   height: 100vh;
   transition: all 0.5s ease;
@@ -218,8 +218,16 @@ a:hover {
   text-decoration: underline;
 }
 
-.atas{
+.atas {
   z-index: 5;
+}
+
+.bgPrimary {
+  background-color: #214384;
+}
+
+.hidden{
+  visibility: hidden;
 }
 
 /* NOTE: NAVBAR */
@@ -233,7 +241,7 @@ a:hover {
 }
 
 .logoImg {
-  height: 80px;
+  height: 10vh;
   background-image: url('../assets/img/logoPolindo.svg');
   background-position: left;
 }
@@ -244,10 +252,10 @@ a:hover {
   background-position: left;
 }
 
-.navBarBG{
+
+.navBarBG {
   height: 15vh;
-  background: linear-gradient(
-      rgba(251, 251, 251, 0.8),
+  background: linear-gradient(rgba(251, 251, 251, 0.8),
       rgba(251, 251, 251, 0.8));
   /* background-color: white; */
   top: -32px;
@@ -265,7 +273,6 @@ a:hover {
 .accordion {
   display: none;
 }
-
 
 /* NOTE: INDEX */
 .a1 {
@@ -297,9 +304,9 @@ a:hover {
   width: 100%;
   height: 100vw;
   -webkit-transform-origin: top left;
-          transform-origin: top left;
+  transform-origin: top left;
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -359,20 +366,20 @@ a:hover {
   height: 90vh;
   width: 30vw;
   -webkit-transform-origin: 50% 50% 0;
-          transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-          transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
 }
 
-.horizontal-child-line{
+.horizontal-child-line {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 10vw;
   -webkit-transform-origin: 50% 50% 0;
-          transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-          transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
 }
 
 .whoA1Img {
@@ -470,7 +477,7 @@ a:hover {
   padding: 32px;
 }
 
-.hoverPosA33TextEffect{
+.hoverPosA33TextEffect {
   text-align: center;
   font-size: 2rem;
   font-weight: 900;
@@ -488,14 +495,12 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.hoverPosA3311Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA11.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3311Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA11.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3312 {
@@ -505,14 +510,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3312Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA12.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3312Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA12.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3313 {
@@ -530,14 +533,12 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.hoverPosA3321Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA21.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3321Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA21.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3322 {
@@ -547,14 +548,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3322Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA22.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3322Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA22.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3323 {
@@ -564,14 +563,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3323Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA23.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3323Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA23.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3324 {
@@ -580,14 +577,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3324Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA24.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3324Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA24.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3331 {
@@ -597,14 +592,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3331Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA31.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3331Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA31.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3332 {
@@ -614,14 +607,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3332Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA32.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3332Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA32.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3333 {
@@ -631,14 +622,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3333Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA33.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3333Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA33.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posA3334 {
@@ -647,14 +636,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.hoverPosA3334Effect{
-  background: linear-gradient(
-      rgba(49, 165, 133, 0.8),
-      rgba(49, 165, 133, 0.8)
-    ),url('../assets/img/sellA34.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.hoverPosA3334Effect {
+  background: linear-gradient(rgba(49, 165, 133, 0.8),
+      rgba(49, 165, 133, 0.8)), url('../assets/img/sellA34.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .posKetSellProduk {
@@ -736,9 +723,9 @@ a:hover {
   width: 100vh;
   height: 100vw;
   -webkit-transform-origin: top left;
-          transform-origin: top left;
+  transform-origin: top left;
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -777,9 +764,9 @@ a:hover {
   left: 50%;
   width: 100vw;
   -webkit-transform-origin: 50% 50% 0;
-          transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
-          transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
 }
 
 .whyA41 {
@@ -832,7 +819,7 @@ a:hover {
 }
 
 /* NOTE: PRODUCTS */
-.productA1{
+.productA1 {
   height: 100vh;
   padding-top: 25vh;
 }
@@ -921,7 +908,7 @@ a:hover {
 }
 
 /* NOTE: CSR */
-.bodyCSR{
+.bodyCSR {
   height: 300vh;
 }
 
@@ -978,6 +965,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 1800px) {
+
   /* NOTE: INDEX */
   .horizontal-child-container {
     width: 70vh;
@@ -993,99 +981,125 @@ a:hover {
 }
 
 @media only screen and (min-width: 1250px && min-width: 1500px) {
+
   /* NOTE: INDEX */
   .horizontal-child {
-    width: 45vw;
+    width: 10%;
   }
-
-  /* .posA31Img1 {
-    height: 20vh;
-  }
-
-  .posA31Img2 {
-    height: 20vh;
-  } */
 }
 
 @media only screen and (max-width: 1250px) {
+  /* navBar */
+  .logoImg {
+    width: 15vw;
+  }
 
-/* HAMBURGER MENU */
-.hamburgerMenu {
-  position: absolute;
-  top: 5vh;
-  left: 80%;
+  .logoImgWhite {
+    height: 15vw;
+  }
+
+  .negPadNav{
+   visibility: hidden;
+  }
+
+  .logoImgWhiteBurger {
+    height: 12vh;
+    background-image: url('../assets/img/logoPolindo-White.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 80px;
+  }
+
+  /* HAMBURGER MENU */
+  .hamburgerMenu {
+    position: absolute;
+    top: 6vh;
+    left: 80%;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 6px;
+    background-color: #214384;
+    margin-bottom: 5px;
+    transition: 0.4s;
+  }
+
+  .changebar1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+    position: relative;
+    z-index: 101;
+    background-color: #FBFBFB;
+  }
+
+  .changebar2 {
+    opacity: 0;
+    position: relative;
+    z-index: 101;
+  }
+
+  .changebar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+    position: relative;
+    z-index: 101;
+    background-color: #FBFBFB;navBarBG
+  }
+
+  .accordion {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    padding-top: 40px;
+    display: none;
+    opacity: 0;
+  }
+
+  .hideMenu {
+    background-color: #214384;
+    display: inline-block;
+    opacity: 1;
+    transition-timing-function: ease;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    width: 100%;
+  }
+
+  .burgerLogo {
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    position: relative;
+    left: 5px;
+    background-image: url(../images/polipackLogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .burgerMenu {
+    display: block;
+    margin: 50px auto;
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .burgerMenu:hover {
+    text-decoration: none;
+    color: #D0AC67;
+  }
+
+  /* NOTE: INDEX */
+
+    /* a1 */
+    .a1 {
+      background-position: center;
+    }
+
+    .a1PosSm{
+      position: relative;
+      top: 50%;
+    }
 }
-
-.bar1, .bar2, .bar3 {
-  width: 2rem;
-  height: 1rem;
-  background-color: #214384;
-  margin-bottom: 5px;
-  transition: 0.4s;
-}
-
-.changebar1 {
-  transform: rotate(-45deg) translate(-6px, 6px);
-  position: relative;
-  z-index: 101;
-}
-
-.changebar2 {
-  opacity: 0;
-  position: relative;
-  z-index: 101;
-}
-
-.changebar3 {
-  transform: rotate(45deg) translate(-8px, -8px);
-  position: relative;
-  z-index: 101;
-}
-
-.accordion {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  right: 0;
-  z-index: 100;
-  padding-top: 150px;
-  display: none;
-  opacity: 0;
-}
-
-.hideMenu {
-  background-image: radial-gradient(circle, #9A7D48, #6F5931);
-  display: inline-block;
-  opacity: 1;
-  transition-timing-function: ease;
-  animation-duration: 1s;
-  animation-name: fadeIn;
-  width: 100%;
-}
-
-.burgerLogo {
-  height: 120px;
-  width: 120px;
-  margin: 0 auto;
-  position: relative;
-  left: 5px;
-  background-image: url(../images/polipackLogo.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.burgerMenu {
-  display: block;
-  margin: 50px auto;
-  font-size: 1.3rem;
-  color: white;
-  text-decoration: none;
-}
-
-.burgerMenu:hover {
-  text-decoration: none;
-  color: #D0AC67;
-}
-
-/* NOTE: INDEX */

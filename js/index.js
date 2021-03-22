@@ -26,6 +26,8 @@ $(document).ready(function() {
     $(".bar2").toggleClass("changebar2");
     $(".bar3").toggleClass("changebar3");
     $(".accordion").toggleClass("hideMenu");
+    $(".navBar").toggleClass("bgPrimary");
+    $(".logoImg").toggleClass("hidden");
   });
 
 
