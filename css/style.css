@@ -116,7 +116,7 @@ a:hover {
 /* NOTE: GENERAL */
 .introBlue {
   background-color: #214384;
-  height: 100vh;
+  height: 120vh;
   transition: all 0.5s ease;
 }
 
@@ -715,7 +715,7 @@ a:hover {
   padding: 32px 32px 24px;
 }
 
-/* Horizontal scroll for home */
+/* Horizontal scroll for Why */
 .horizontalViewPortWhy {
   position: relative;
   width: 100vw;
@@ -828,7 +828,7 @@ a:hover {
 
 /* NOTE: PRODUCTS */
 .productA1 {
-  height: 100vh;
+  height: 100%;
   padding-top: 25vh;
 }
 
@@ -1003,7 +1003,7 @@ a:hover {
   }
 
   .logoImgWhite {
-    height: 15vw;
+    width: 15vw;
   }
 
   .negPadNav{
@@ -1110,7 +1110,7 @@ a:hover {
 
     /* a2 */
     .a2 {
-      height: 70vh;
+      height: 65vh;
     }
     /* Horizontal scroll for home small screen*/
     .horizontalViewPort {
@@ -1130,7 +1130,7 @@ a:hover {
       transform-origin: top left;
       -webkit-transform: rotate(0);
       transform: rotate(0);
-      overflow-x: scroll;
+      overflow-x: hidden;
       overflow-y: scroll;
     }
 
@@ -1247,6 +1247,114 @@ a:hover {
 
     .posA3331{
       margin-bottom: 32px;
+    }
+
+    /* NOTE: WHY US */
+    /* Horizontal scroll for Why */
+    .horizontalViewPortWhy {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #E2F0F3;
+    }
+
+    .horizontalParentWhy {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      -webkit-transform-origin: top left;
+      transform-origin: top left;
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    .horizontalParentWhy::-webkit-scrollbar {
+      display: none;
+    }
+
+
+    .horizontalChildContainerWhy {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .horizontalChildContainerWhy:nth-of-type(1) {
+      top: 0vw;
+    }
+
+    .horizontalChildContainerWhy:nth-of-type(2) {
+      top: 0;
+    }
+
+    .horizontalChildContainerWhy:nth-of-type(3) {
+      top: 0;
+    }
+
+    .horizontalChildContainerWhy:nth-of-type(4) {
+      top: 0;
+    }
+
+    .horizontalChildWhy {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      -webkit-transform-origin: 0 0 0;
+      transform-origin: 0 0 0;
+      -webkit-transform: translateX(0) translateY(0) rotate(0);
+      transform: translateX(0) translateY(0) rotate(0);
+      margin-top: 5vh;
+    }
+
+    .whyA4TextGroup {
+      width: 100vw;
+      padding: 0 64px;
+    }
+
+    .whyA41Img {
+      position: relative;
+      width: 10vw;
+    }
+
+    .whyA42Img {
+      width: 10vw;
+    }
+
+    .whyA43Img {
+      width: 10vw;
+    }
+
+    .whyA44Img {
+      width: 10vw;
+    }
+
+    /* NOTE: PRODUCT */
+    .productA1Img {
+      height: 50vh;
+      margin-top:40px;
+    }
+
+    /* NOTE: CSR */
+    .csrIntroImg1{
+      display: none;
+    }
+
+    .csrA1 {
+      height: 100vh;
+    }
+
+    .csrA2 {
+      height: 100vh;
+      padding-top: 5vh;
+      margin-bottom: 5vh;
     }
 
 }
