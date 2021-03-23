@@ -11,9 +11,9 @@ $(document).ready(function() {
   }, 1500);
 
   $(document).on('scroll', function() {
-    if ($(document).scrollTop() > 300) {
+    if ($(document).scrollTop() > 100) {
       $("#navBar").addClass("navBarBG");
-    } else if ($(document).scrollTop() < 100) {
+    } else if ($(document).scrollTop() < 99) {
       $("#navBar").removeClass("navBarBG");
     };
   });
@@ -173,10 +173,10 @@ $(document).ready(function() {
   $(".textWhite").addClass("polindoWhite")
 
   $(document).on('scroll', function() {
-    if ($(document).scrollTop() > 300) {
+    if ($(document).scrollTop() > 100) {
       $(".textWhite").removeClass("polindoWhite");
       $(".logoImgWhite").css("background-image", "url('assets/img/logoPolindo.svg')");
-    } else if ($(document).scrollTop() < 100) {
+    } else if ($(document).scrollTop() < 99) {
       $(".textWhite").addClass("polindoWhite");
       $(".logoImgWhite").css("background-image", "url('assets/img/logoPolindo-White.svg')");
     };

@@ -1254,7 +1254,7 @@ a:hover {
     .horizontalViewPortWhy {
       position: relative;
       width: 100vw;
-      height: 100vh;
+      height: 900px;
       overflow: hidden;
       background-color: #E2F0F3;
     }
@@ -1264,7 +1264,7 @@ a:hover {
       top: 0;
       left: 0;
       width: 100vw;
-      height: 100vh;
+      height: 900px;
       -webkit-transform-origin: top left;
       transform-origin: top left;
       -webkit-transform: rotate(0);
@@ -1281,7 +1281,7 @@ a:hover {
     .horizontalChildContainerWhy {
       position: relative;
       width: 100vw;
-      height: 100vh;
+      height: 1000px;
       text-align: center;
       overflow: hidden;
     }
@@ -1314,26 +1314,39 @@ a:hover {
       margin-top: 5vh;
     }
 
+    .whyA41 {
+      display: block;
+      padding: 0;
+    }
+
     .whyA4TextGroup {
+      display: block;
       width: 100vw;
       padding: 0 64px;
     }
 
     .whyA41Img {
-      position: relative;
-      width: 10vw;
+      display: inline-block;
+      width: 200vw;
+      height: 100%;
     }
 
     .whyA42Img {
-      width: 10vw;
+      display: inline-block;
+      width: 200vw;
+      height: 100%;
     }
 
     .whyA43Img {
-      width: 10vw;
+      display: inline-block;
+      width: 200vw;
+      height: 100%;
     }
 
     .whyA44Img {
-      width: 10vw;
+      display: inline-block;
+      width: 200vw;
+      height: 100%;
     }
 
     /* NOTE: PRODUCT */
@@ -1343,18 +1356,50 @@ a:hover {
     }
 
     /* NOTE: CSR */
+    .bodyCSR {
+      height: 100%;
+    }
+
+    .introCSR2 {
+      height: 800px;
+      padding: 20% 0;
+    }
+
+    .posCSRIntro2 {
+      margin-left: 0;
+    }
+
     .csrIntroImg1{
       display: none;
     }
 
+    .csrIntroImg2 {
+      height: 100px;
+      width: 100%;
+      background-image: url('../assets/img/csrImg2.png');
+      background-size: cover;
+      border-radius: 10px;
+      margin-bottom: 48px;
+    }
+
     .csrA1 {
-      height: 100vh;
+      height: 900px;
     }
 
     .csrA2 {
-      height: 100vh;
-      padding-top: 5vh;
-      margin-bottom: 5vh;
+      height: 100%;
+      padding-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .csrImg3 {
+      height: 500px;
+    }
+
+    .posCsrA2Para {
+      position: relative;
+      top: 0;
+      right: 0;
     }
 
 }
