@@ -1116,7 +1116,7 @@ a:hover {
     .horizontalViewPort {
       position: relative;
       width: 100vw;
-      height: 50vh;
+      height: 400px;
       overflow: hidden;
     }
 
@@ -1125,7 +1125,7 @@ a:hover {
       top: 0;
       left: 0;
       width: 100vw;
-      height: 50vh;
+      height: 400px;
       -webkit-transform-origin: top left;
       transform-origin: top left;
       -webkit-transform: rotate(0);
@@ -1141,7 +1141,7 @@ a:hover {
     .horizontal-child-container {
       position: relative;
       width: 100vw;
-      height: 50vh;
+      height: 500px;
       text-align: center;
       overflow: hidden;
     }
@@ -1186,7 +1186,7 @@ a:hover {
       position: relative;
       top: 0;
       left: 0;
-      height: 40vh;
+      height: 500px;
       width: 100vw;
       -webkit-transform-origin: 0 0 0;
       transform-origin: 0 0 0;
