@@ -1110,13 +1110,13 @@ a:hover {
 
     /* a2 */
     .a2 {
-      height: 65vh;
+      height: 650px;
     }
     /* Horizontal scroll for home small screen*/
     .horizontalViewPort {
       position: relative;
       width: 100vw;
-      height: 400px;
+      height: 500px;
       overflow: hidden;
     }
 
@@ -1125,7 +1125,7 @@ a:hover {
       top: 0;
       left: 0;
       width: 100vw;
-      height: 400px;
+      height: 500px;
       -webkit-transform-origin: top left;
       transform-origin: top left;
       -webkit-transform: rotate(0);
