@@ -1102,7 +1102,7 @@ a:hover {
 
     .a1PosSm{
       position: relative;
-      bottom: 100px;
+      bottom: 5vh;
     }
 
     /* a2 */
@@ -1135,7 +1135,7 @@ a:hover {
     .horizontal-child-container {
       position: relative;
       width: 100vw;
-      height: 80vh;
+      height: 60vh;
       text-align: center;
       overflow: hidden;
     }
@@ -1180,7 +1180,7 @@ a:hover {
       position: relative;
       top: 0;
       left: 0;
-      height: 100vh;
+      height: 40vh;
       width: 100vw;
       -webkit-transform-origin: 0 0 0;
       transform-origin: 0 0 0;
