@@ -1051,13 +1051,13 @@ a:hover {
     transform: rotate(45deg) translate(-8px, -8px);
     position: relative;
     z-index: 101;
-    background-color: #FBFBFB;navBarBG
+    background-color: #FBFBFB;
   }
 
   .accordion {
     height: 110vh;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -1109,6 +1109,9 @@ a:hover {
     }
 
     /* a2 */
+    .a2 {
+      height: 70vh;
+    }
     /* Horizontal scroll for home small screen*/
     .horizontalViewPort {
       position: relative;
